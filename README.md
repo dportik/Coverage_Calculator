@@ -36,6 +36,7 @@ Can be used to create meaningful boxplots in R, where factor is sample or contig
 ##############
 DEPENDENCIES:
 numpy - Numerical Python
+samtools - needs to be in path to call from command line
 ##############
 ------------------------
 written for Python 2.7.3
