@@ -23,24 +23,37 @@ COPY THE BED FILES OF INTEREST to a new directory before you start!  Else this w
 every bed file in the directory per sample, which is defaulted as FIVE!
 
 -Performs coverage calculation across entire bed file for each sample
+
 -Writes output file per sample
+
 -Iterates over all output files, calculates an average coverage per CONTIG (not EXON per CONTIG)
+
 -Appends averages for individual contigs across all sample to 'All_Sample_Coverages.txt', format:
+
 JMPD002_index10	Contig809	31.8
+
 JMPD002_index10	Contig81	254.1
+
 JMPD002_index10	Contig810	23.7
+
 JMPD002_index10	Contig811	67.7
 
 Can be used to create meaningful boxplots in R, where factor is sample or contig name.
 
-##############
+
 DEPENDENCIES:
+
 numpy - Numerical Python
+
 samtools - needs to be in path to call from command line
-##############
+
+
 ------------------------
 written for Python 2.7.3
+
 Dan Portik
+
 daniel.portik@berkeley.edu
+
 October 2015
 ------------------------
