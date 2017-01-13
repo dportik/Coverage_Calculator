@@ -40,6 +40,7 @@ JMPD002_index10	Contig811	67.7
 
 Can be used to create meaningful boxplots in R, where factor is sample or contig name.
 
+written for Python 2.7.3
 
 DEPENDENCIES:
 
@@ -47,13 +48,16 @@ numpy - Numerical Python
 
 samtools - needs to be in path to call from command line
 
-
 ------------------------
-written for Python 2.7.3
 
 Dan Portik
 
-daniel.portik@berkeley.edu
+daniel.portik@berkeley.edu --> daniel.portik@uta.edu
 
 October 2015
-------------------------
+
+
+
+If you use these scripts, please cite:
+
+Portik, D.M., Smith, L.L., and K. Bi. 2016. An evaluation of transcriptome-based exon capture for frog phylogenomics across multiple scales of divergence (Class: Amphibia, Order: Anura). Molecular Ecology Resources 16: 1069–1083.
